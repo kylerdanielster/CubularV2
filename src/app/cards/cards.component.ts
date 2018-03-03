@@ -20,7 +20,7 @@ export class CardsComponent implements OnInit {
   }
 
   getCards(): void {
-    this.cardService.getCards()this.cardService.getCards()
+    this.cardService.getCards()
       .subscribe(cards => this.cards = cards);
   }
 
